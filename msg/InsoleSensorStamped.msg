@@ -2,7 +2,8 @@ Header header
 opensimrt_msgs/OpenSimData pressure
 std_msgs/Float32 force
 std_msgs/Float32 time
+std_msgs/Float32 delay
 opensimrt_msgs/OpenSimData cop
-geometry_msgs/Wrench wrench
+geometry_msgs/WrenchStamped wrench
 sensor_msgs/Imu imu
 geometry_msgs/TransformStamped ts
